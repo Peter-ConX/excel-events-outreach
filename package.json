@@ -1,0 +1,19 @@
+{
+  "name": "excel-events-website",
+  "version": "1.0.0",
+  "description": "Bespoke website preview for Excel Events (Planning and Decoration) in Ikeja, Lagos",
+  "type": "module",
+  "scripts": {
+    "start": "node serve.js",
+    "dev": "node serve.js"
+  },
+  "keywords": [
+    "excel-events",
+    "lagos",
+    "event-planning",
+    "event-decoration",
+    "website"
+  ],
+  "author": "Asqek",
+  "license": "MIT"
+}
