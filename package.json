@@ -4,8 +4,19 @@
   "description": "Bespoke website preview for Excel Events (Planning and Decoration) in Ikeja, Lagos",
   "type": "module",
   "scripts": {
-    "start": "node serve.js",
-    "dev": "node serve.js"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "vite preview"
+  },
+  "dependencies": {
+    "lucide-react": "^1.16.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.2.0"
   },
   "keywords": [
     "excel-events",
